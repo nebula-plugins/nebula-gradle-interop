@@ -9,7 +9,7 @@ cache:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
 before_install:
-- test $TRAVIS_PULL_REQUEST = false && openssl aes-256-cbc -K $encrypted_ae805dc87259_key -iv $encrypted_ae805dc87259_iv -in gradle.properties.enc -out gradle.properties -d || true
+- test $TRAVIS_PULL_REQUEST = false && openssl aes-256-cbc -K $encrypted_aae5f9eb4e07_key -iv $encrypted_aae5f9eb4e07_iv -in gradle.properties.enc -out gradle.properties -d || true                                       
 after_success:
 - ./gradlew jacocoTestReport coveralls
 notifications:
