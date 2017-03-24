@@ -5,6 +5,9 @@ Nebula Gradle Interop
 [![Build Status](https://travis-ci.org/nebula-plugins/nebula-gradle-interop.svg)](https://travis-ci.org/nebula-plugins/nebula-gradle-interop)
 [![Apache 2.0](https://img.shields.io/github/license/nebula-plugins/nebula-test.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
+Kotlin library providing extensions to assist with Gradle iterop and backwards compatibility Edit
+Add topics
+
 LICENSE
 =======
 
