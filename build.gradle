@@ -28,3 +28,9 @@ contacts {
         github 'DanielThomas'
     }
 }
+
+dependencies {
+    testCompile 'org.mockito:mockito-core:latest.release'
+    testCompile 'com.nhaarman:mockito-kotlin:latest.release'
+    testCompile 'com.natpryce:hamkrest:latest.release'
+}
