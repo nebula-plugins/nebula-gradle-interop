@@ -30,6 +30,7 @@ contacts {
 }
 
 dependencies {
+    testCompile 'org.jetbrains.kotlin:kotlin-reflect'
     testCompile 'org.mockito:mockito-core:latest.release'
     testCompile 'com.nhaarman:mockito-kotlin:latest.release'
     testCompile 'com.natpryce:hamkrest:latest.release'
