@@ -35,3 +35,8 @@ dependencies {
     testCompile 'com.nhaarman:mockito-kotlin:latest.release'
     testCompile 'com.natpryce:hamkrest:latest.release'
 }
+
+// Workaround wonky Kotlin task order
+afterEvaluate {
+    compileTestKotlin.dependsOn copyMainKotlinClasses
+}
