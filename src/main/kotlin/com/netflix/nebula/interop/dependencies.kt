@@ -15,7 +15,7 @@ val ResolvedDependencyResult.selectedId: ComponentIdentifier
  * The selected {@link ModuleVersionIdentifier} for a given {@link ResolvedDependencyResult}.
  */
 val ResolvedDependencyResult.selectedModuleVersion: ModuleVersionIdentifier
-    get() = selected.moduleVersion
+    get() = selected?.moduleVersion ?: throw IllegalStateException("A ModuleVersionIdentifier is not available for $selected")
 
 /**
  * The selected {@link ModuleIdentifier} for a given {@link ResolvedDependencyResult}.
@@ -27,4 +27,4 @@ val ResolvedDependencyResult.selectedModule: ModuleIdentifier
  * The selected version for a given {@link ResolvedDependencyResult}.
  */
 val ResolvedDependencyResult.selectedVersion: String
-    get() = selected.moduleVersion.version
+    get() = selectedModuleVersion.version
