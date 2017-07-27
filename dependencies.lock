@@ -23,7 +23,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.1",
+            "locked": "6.1.2",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -48,7 +48,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.1",
+            "locked": "6.1.2",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -73,7 +73,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.1",
+            "locked": "6.1.2",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -98,7 +98,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.1",
+            "locked": "6.1.2",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -163,7 +163,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.1",
+            "locked": "6.1.2",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -188,7 +188,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.1",
+            "locked": "6.1.2",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -213,7 +213,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.1",
+            "locked": "6.1.2",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -238,7 +238,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.1",
+            "locked": "6.1.2",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
