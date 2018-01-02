@@ -1,25 +1,25 @@
 {
     "compile": {
         "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         }
     },
     "compileClasspath": {
         "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         }
     },
     "default": {
         "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         }
     },
     "integTestCompile": {
         "com.natpryce:hamkrest": {
-            "locked": "1.4.1.0",
+            "locked": "1.4.2.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -31,20 +31,20 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.1.0"
+            "locked": "1.2.10"
         },
         "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.8.47",
+            "locked": "2.13.0",
             "requested": "latest.release"
         }
     },
     "integTestCompileClasspath": {
         "com.natpryce:hamkrest": {
-            "locked": "1.4.1.0",
+            "locked": "1.4.2.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -56,20 +56,20 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.1.0"
+            "locked": "1.2.10"
         },
         "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.8.47",
+            "locked": "2.13.0",
             "requested": "latest.release"
         }
     },
     "integTestRuntime": {
         "com.natpryce:hamkrest": {
-            "locked": "1.4.1.0",
+            "locked": "1.4.2.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -81,20 +81,20 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.1.0"
+            "locked": "1.2.10"
         },
         "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.8.47",
+            "locked": "2.13.0",
             "requested": "latest.release"
         }
     },
     "integTestRuntimeClasspath": {
         "com.natpryce:hamkrest": {
-            "locked": "1.4.1.0",
+            "locked": "1.4.2.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -106,60 +106,62 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.1.0"
+            "locked": "1.2.10"
         },
         "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.8.47",
+            "locked": "2.13.0",
             "requested": "latest.release"
         }
     },
     "jacocoAgent": {
         "org.jacoco:org.jacoco.agent": {
-            "locked": "0.7.8"
+            "locked": "0.7.9",
+            "requested": "0.7.9"
         }
     },
     "jacocoAnt": {
         "org.jacoco:org.jacoco.ant": {
-            "locked": "0.7.8"
+            "locked": "0.7.9",
+            "requested": "0.7.9"
         }
     },
     "kapt": {
-        "org.jetbrains.kotlin:kotlin-annotation-processing": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+        "org.jetbrains.kotlin:kotlin-annotation-processing-gradle": {
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         }
     },
     "kaptIntegTest": {
-        "org.jetbrains.kotlin:kotlin-annotation-processing": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+        "org.jetbrains.kotlin:kotlin-annotation-processing-gradle": {
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         }
     },
     "kaptTest": {
-        "org.jetbrains.kotlin:kotlin-annotation-processing": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+        "org.jetbrains.kotlin:kotlin-annotation-processing-gradle": {
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         }
     },
     "runtime": {
         "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         }
     },
     "runtimeClasspath": {
         "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         }
     },
     "testCompile": {
         "com.natpryce:hamkrest": {
-            "locked": "1.4.1.0",
+            "locked": "1.4.2.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -171,20 +173,20 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.1.0"
+            "locked": "1.2.10"
         },
         "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.8.47",
+            "locked": "2.13.0",
             "requested": "latest.release"
         }
     },
     "testCompileClasspath": {
         "com.natpryce:hamkrest": {
-            "locked": "1.4.1.0",
+            "locked": "1.4.2.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -196,20 +198,20 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.1.0"
+            "locked": "1.2.10"
         },
         "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.8.47",
+            "locked": "2.13.0",
             "requested": "latest.release"
         }
     },
     "testRuntime": {
         "com.natpryce:hamkrest": {
-            "locked": "1.4.1.0",
+            "locked": "1.4.2.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -221,20 +223,20 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.1.0"
+            "locked": "1.2.10"
         },
         "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.8.47",
+            "locked": "2.13.0",
             "requested": "latest.release"
         }
     },
     "testRuntimeClasspath": {
         "com.natpryce:hamkrest": {
-            "locked": "1.4.1.0",
+            "locked": "1.4.2.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -246,14 +248,14 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.1.0"
+            "locked": "1.2.10"
         },
         "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.1.0",
-            "requested": "1.1.0"
+            "locked": "1.2.10",
+            "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.8.47",
+            "locked": "2.13.0",
             "requested": "latest.release"
         }
     }
