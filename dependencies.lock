@@ -23,7 +23,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.2",
+            "locked": "6.4.0",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -38,7 +38,7 @@
             "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.13.0",
+            "locked": "2.18.0",
             "requested": "latest.release"
         }
     },
@@ -48,7 +48,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.2",
+            "locked": "6.4.0",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -63,7 +63,7 @@
             "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.13.0",
+            "locked": "2.18.0",
             "requested": "latest.release"
         }
     },
@@ -73,7 +73,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.2",
+            "locked": "6.4.0",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -88,7 +88,7 @@
             "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.13.0",
+            "locked": "2.18.0",
             "requested": "latest.release"
         }
     },
@@ -98,7 +98,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.2",
+            "locked": "6.4.0",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -113,20 +113,18 @@
             "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.13.0",
+            "locked": "2.18.0",
             "requested": "latest.release"
         }
     },
     "jacocoAgent": {
         "org.jacoco:org.jacoco.agent": {
-            "locked": "0.7.9",
-            "requested": "0.7.9"
+            "locked": "0.8.1"
         }
     },
     "jacocoAnt": {
         "org.jacoco:org.jacoco.ant": {
-            "locked": "0.7.9",
-            "requested": "0.7.9"
+            "locked": "0.8.1"
         }
     },
     "kapt": {
@@ -165,7 +163,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.2",
+            "locked": "6.4.0",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -180,7 +178,7 @@
             "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.13.0",
+            "locked": "2.18.0",
             "requested": "latest.release"
         }
     },
@@ -190,7 +188,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.2",
+            "locked": "6.4.0",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -205,7 +203,7 @@
             "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.13.0",
+            "locked": "2.18.0",
             "requested": "latest.release"
         }
     },
@@ -215,7 +213,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.2",
+            "locked": "6.4.0",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -230,7 +228,7 @@
             "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.13.0",
+            "locked": "2.18.0",
             "requested": "latest.release"
         }
     },
@@ -240,7 +238,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.1.2",
+            "locked": "6.4.0",
             "requested": "6.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -255,7 +253,7 @@
             "requested": "1.2.10"
         },
         "org.mockito:mockito-core": {
-            "locked": "2.13.0",
+            "locked": "2.18.0",
             "requested": "latest.release"
         }
     }
