@@ -1,20 +1,20 @@
 {
     "compile": {
-        "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7": {
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         }
     },
     "compileClasspath": {
-        "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7": {
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         }
     },
     "default": {
-        "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7": {
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         }
     },
     "integTestCompile": {
@@ -31,11 +31,11 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.2.10"
+            "locked": "1.2.61"
         },
-        "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7": {
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
         "org.mockito:mockito-core": {
             "locked": "2.21.0",
@@ -56,11 +56,12 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.2.10"
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
-        "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7": {
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
         "org.mockito:mockito-core": {
             "locked": "2.21.0",
@@ -81,11 +82,12 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.2.10"
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
-        "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7": {
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
         "org.mockito:mockito-core": {
             "locked": "2.21.0",
@@ -106,11 +108,12 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.2.10"
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
-        "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7": {
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
         "org.mockito:mockito-core": {
             "locked": "2.21.0",
@@ -127,34 +130,27 @@
             "locked": "0.8.1"
         }
     },
-    "kapt": {
-        "org.jetbrains.kotlin:kotlin-annotation-processing-gradle": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+    "kotlinCompilerClasspath": {
+        "org.jetbrains.kotlin:kotlin-compiler-embeddable": {
+            "locked": "1.2.61"
         }
     },
-    "kaptIntegTest": {
-        "org.jetbrains.kotlin:kotlin-annotation-processing-gradle": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
-        }
-    },
-    "kaptTest": {
-        "org.jetbrains.kotlin:kotlin-annotation-processing-gradle": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+    "kotlinCompilerPluginClasspath": {
+        "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable": {
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         }
     },
     "runtime": {
-        "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7": {
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         }
     },
     "runtimeClasspath": {
-        "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7": {
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         }
     },
     "testCompile": {
@@ -171,11 +167,12 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.2.10"
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
-        "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7": {
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
         "org.mockito:mockito-core": {
             "locked": "2.21.0",
@@ -196,11 +193,12 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.2.10"
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
-        "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7": {
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
         "org.mockito:mockito-core": {
             "locked": "2.21.0",
@@ -221,11 +219,12 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.2.10"
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
-        "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7": {
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
         "org.mockito:mockito-core": {
             "locked": "2.21.0",
@@ -246,11 +245,12 @@
             "requested": "latest.release"
         },
         "org.jetbrains.kotlin:kotlin-reflect": {
-            "locked": "1.2.10"
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
-        "org.jetbrains.kotlin:kotlin-stdlib-jre7": {
-            "locked": "1.2.10",
-            "requested": "1.2.10"
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7": {
+            "locked": "1.2.61",
+            "requested": "1.2.61"
         },
         "org.mockito:mockito-core": {
             "locked": "2.21.0",
