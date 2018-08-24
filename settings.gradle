@@ -1,1 +1,4 @@
 rootProject.name='nebula-gradle-interop'
+
+enableFeaturePreview('STABLE_PUBLISHING')
+
