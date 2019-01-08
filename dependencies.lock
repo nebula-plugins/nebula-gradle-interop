@@ -35,7 +35,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "7.1.4",
+            "locked": "7.1.7",
             "requested": "7.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -60,7 +60,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "7.1.4",
+            "locked": "7.1.7",
             "requested": "7.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -86,7 +86,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "7.1.4",
+            "locked": "7.1.7",
             "requested": "7.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -112,7 +112,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "7.1.4",
+            "locked": "7.1.7",
             "requested": "7.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -138,7 +138,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "7.1.4",
+            "locked": "7.1.7",
             "requested": "7.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -164,7 +164,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "7.1.4",
+            "locked": "7.1.7",
             "requested": "7.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -223,7 +223,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "7.1.4",
+            "locked": "7.1.7",
             "requested": "7.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -249,7 +249,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "7.1.4",
+            "locked": "7.1.7",
             "requested": "7.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -275,7 +275,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "7.1.4",
+            "locked": "7.1.7",
             "requested": "7.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -301,7 +301,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "7.1.4",
+            "locked": "7.1.7",
             "requested": "7.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -327,7 +327,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "7.1.4",
+            "locked": "7.1.7",
             "requested": "7.+"
         },
         "com.nhaarman:mockito-kotlin": {
@@ -353,7 +353,7 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "7.1.4",
+            "locked": "7.1.7",
             "requested": "7.+"
         },
         "com.nhaarman:mockito-kotlin": {
