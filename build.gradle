@@ -33,6 +33,8 @@ contacts {
     }
 }
 
+publishPlugins.enabled = false
+
 dependencies {
     testCompile 'org.jetbrains.kotlin:kotlin-reflect'
     testCompile 'org.mockito:mockito-core:latest.release'
