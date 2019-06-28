@@ -41,3 +41,6 @@ dependencies {
     testCompile 'com.nhaarman:mockito-kotlin:latest.release'
     testCompile 'com.natpryce:hamkrest:latest.release'
 }
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
