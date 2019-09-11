@@ -19,7 +19,7 @@ class VersionsTest {
 
     @Test
     fun `selector with null version of gradle`() {
-        val versionWithSelector = VersionWithSelector("1.0.0", VersionParser().transform("1.0.0"))
+        val versionWithSelector = VersionWithSelector("1.0.0")
         val selector = versionWithSelector.asSelector()
         assertThat(selector.selector, equalTo("1.0.0"))
     }
@@ -27,7 +27,7 @@ class VersionsTest {
     @Test
     fun `selector with old version of gradle`() {
         whenever(gradle.gradleVersion).thenReturn("3.4")
-        val versionWithSelector = VersionWithSelector("1.0.0", VersionParser().transform("1.0.0"), gradle)
+        val versionWithSelector = VersionWithSelector("1.0.0", gradle)
         val selector = versionWithSelector.asSelector()
         assertThat(selector.selector, equalTo("1.0.0"))
     }
@@ -35,7 +35,7 @@ class VersionsTest {
     @Test
     fun `selector with new version of gradle`() {
         whenever(gradle.gradleVersion).thenReturn("5.6.2")
-        val versionWithSelector = VersionWithSelector("1.0.0", VersionParser().transform("1.0.0"), gradle)
+        val versionWithSelector = VersionWithSelector("1.0.0", gradle)
         val selector = versionWithSelector.asSelector()
         assertThat(selector.selector, equalTo("1.0.0"))
     }
