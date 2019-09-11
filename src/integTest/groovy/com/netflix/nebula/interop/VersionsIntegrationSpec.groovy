@@ -28,6 +28,7 @@ class VersionsIntegrationSpec extends IntegrationSpec {
 
         task printVersion {
             doLast {
+                println "Gradle version: " + project.gradle.gradleVersion
                 println "Version from Selector: " + new VersionWithSelector("1.0.0", new VersionParser().transform("1.0.0")).asSelector().selector
             }
         }
@@ -37,6 +38,7 @@ class VersionsIntegrationSpec extends IntegrationSpec {
         def result = runTasksSuccessfully('printVersion')
 
         then:
+        result.standardOutput.contains("Gradle version: " + gradleVersionToUse)
         result.standardOutput.contains("Version from Selector: " + version)
 
         where:

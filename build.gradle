@@ -42,7 +42,6 @@ dependencies {
     testCompile 'org.mockito:mockito-core:latest.release'
     testCompile 'com.nhaarman:mockito-kotlin:latest.release'
     testCompile 'com.natpryce:hamkrest:latest.release'
-    testCompile 'com.netflix.nebula:nebula-test:latest.release'
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
