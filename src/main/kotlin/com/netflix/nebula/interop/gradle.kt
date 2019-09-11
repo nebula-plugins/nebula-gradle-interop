@@ -12,3 +12,14 @@ fun Gradle.versionLessThan(version: String): Boolean =
 fun Gradle.versionCompareTo(version: String): Int {
     return GradleVersion.version(gradleVersion).compareTo(GradleVersion.version(version))
 }
+
+fun GradleVersion.versionGreaterThan(version: String): Boolean =
+        versionCompareTo(version) > 0
+
+fun GradleVersion.versionLessThan(version: String): Boolean =
+        versionCompareTo(version) < 0
+
+fun GradleVersion.versionCompareTo(version: String): Int {
+    return GradleVersion.version(this.version).compareTo(GradleVersion.version(version))
+}
+
