@@ -18,7 +18,7 @@ class VersionsIntegrationSpec extends IntegrationSpec {
     }
 
     @Unroll
-    def 'VersionWithSelector parses selector switching to proper DefaultVersionSelectorScheme constructor'() {
+    def 'VersionWithSelector parses selector switching to proper DefaultVersionSelectorScheme constructor - Gradle #gradleVersionToUse'() {
         setup:
         gradleVersion = gradleVersionToUse
 
@@ -39,11 +39,23 @@ class VersionsIntegrationSpec extends IntegrationSpec {
 
         then:
         result.standardOutput.contains("Gradle version: " + gradleVersionToUse)
-        result.standardOutput.contains("Version from Selector: " + version)
+        result.standardOutput.contains("Version from Selector: 1.0.0")
 
         where:
-        version | gradleVersionToUse
-        '1.0.0' | '5.6.2'
-        '1.0.0' | '4.0'
+        gradleVersionToUse << [
+                '4.0',
+                '4.1',
+                '4.2',
+                '4.3',
+                '4.4',
+                '4.5',
+                '5.0',
+                '5.1',
+                '5.2',
+                '5.3',
+                '5.4',
+                '5.5',
+                '5.6',
+        ]
     }
 }
