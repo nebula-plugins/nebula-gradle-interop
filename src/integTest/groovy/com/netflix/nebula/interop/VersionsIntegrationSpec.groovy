@@ -1,6 +1,7 @@
 package com.netflix.nebula.interop
 
 import nebula.test.IntegrationSpec
+import org.gradle.util.GradleVersion
 import spock.lang.Unroll
 
 class VersionsIntegrationSpec extends IntegrationSpec {
@@ -56,6 +57,7 @@ class VersionsIntegrationSpec extends IntegrationSpec {
                 '5.4',
                 '5.5',
                 '5.6',
+                GradleVersion.current().version
         ]
     }
 }
