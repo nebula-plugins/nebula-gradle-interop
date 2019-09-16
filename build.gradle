@@ -16,7 +16,7 @@
 
 
 plugins {
-    id 'nebula.plugin-plugin' version '12.3.5'
+    id 'nebula.plugin-plugin' version '12.4.1'
     id 'nebula.kotlin' version '1.3.50'
     id 'groovy'
     id "nebula.integtest" version "6.0.3"
@@ -38,10 +38,10 @@ contacts {
 publishPlugins.enabled = false
 
 dependencies {
-    testCompile 'org.jetbrains.kotlin:kotlin-reflect'
-    testCompile 'org.mockito:mockito-core:latest.release'
-    testCompile 'com.nhaarman:mockito-kotlin:latest.release'
-    testCompile 'com.natpryce:hamkrest:latest.release'
+    testImplementation 'org.jetbrains.kotlin:kotlin-reflect'
+    testImplementation 'org.mockito:mockito-core:latest.release'
+    testImplementation 'com.nhaarman:mockito-kotlin:latest.release'
+    testImplementation 'com.natpryce:hamkrest:latest.release'
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
