@@ -2,15 +2,19 @@ Nebula Gradle Interop
 ===========
 
 ![Support Status](https://img.shields.io/badge/nebula-internal-lightgray.svg)
-[![Build Status](https://travis-ci.com/nebula-plugins/nebula-gradle-interop.svg)](https://travis-ci.com/nebula-plugins/nebula-gradle-interop)
-[![Apache 2.0](https://img.shields.io/github/license/nebula-plugins/nebula-test.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.netflix.nebula/nebula-gradle-interop/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.netflix.nebula/nebula-gradle-interop)
+![CI](https://github.com/nebula-plugins/nebula-gradle-interop/actions/workflows/ci.yml/badge.svg)
+![Publish](https://github.com/nebula-plugins/nebula-gradle-interop/actions/workflows/publish.yml/badge.svg)
+[![Apache 2.0](https://img.shields.io/github/license/nebula-plugins/nebula-gradle-interop.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+
+
 
 Kotlin library providing extensions to assist with Gradle iterop and backwards compatibility.
 
 LICENSE
 =======
 
-Copyright 2017 Netflix, Inc.
+Copyright 2021 Netflix, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
