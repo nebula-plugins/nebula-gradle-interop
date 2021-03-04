@@ -2,7 +2,7 @@ Nebula Gradle Interop
 ===========
 
 ![Support Status](https://img.shields.io/badge/nebula-internal-lightgray.svg)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.netflix.nebula/nebula-gradle-interop/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.netflix.nebula/nebula-gradle-interop)
+[![Maven Central](https://img.shields.io/maven-central/v/com.netflix.nebula/nebula-gradle-interop)](https://maven-badges.herokuapp.com/maven-central/com.netflix.nebula/nebula-gradle-interop)
 ![CI](https://github.com/nebula-plugins/nebula-gradle-interop/actions/workflows/ci.yml/badge.svg)
 ![Publish](https://github.com/nebula-plugins/nebula-gradle-interop/actions/workflows/publish.yml/badge.svg)
 [![Apache 2.0](https://img.shields.io/github/license/nebula-plugins/nebula-gradle-interop.svg)](http://www.apache.org/licenses/LICENSE-2.0)
