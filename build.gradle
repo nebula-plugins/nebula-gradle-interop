@@ -25,13 +25,9 @@ plugins {
 description 'Test harness for Gradle plugins. Hopefully retiring in favor of Gradle TestKit'
 
 contacts {
-    'dmthomas@gmail.com' {
-        moniker 'Danny Thomas'
-        github 'DanielThomas'
-    }
-    'roberto@perezalcolea.info' {
-        moniker 'Roberto Perez Alcolea'
-        github 'rpalcolea'
+    'nebula-plugins-oss@netflix.com' {
+        moniker 'Nebula Plugins Maintainers'
+        github 'nebula-plugins'
     }
 }
 
