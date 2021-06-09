@@ -1,12 +1,11 @@
 package com.netflix.nebula.interop
 
-import com.google.common.base.Function
-import com.google.common.base.Predicate
-import com.google.common.collect.FluentIterable
 import nebula.test.functional.GradleRunner
 import org.gradle.internal.classloader.ClasspathUtil
 import org.gradle.internal.classpath.ClassPath
 import org.gradle.util.TextUtil
+
+import java.util.function.Predicate
 
 class DependenciesBuilderWithClassesUnderTest {
     static String buildDependencies() {
@@ -19,12 +18,7 @@ class DependenciesBuilderWithClassesUnderTest {
 
     private static List<File> getClasspathAsFiles(ClassLoader classLoader, Predicate<URL> classpathFilter) {
         List<URL> classpathUrls = getClasspathUrls(classLoader)
-        return FluentIterable.from(classpathUrls).filter(classpathFilter).transform(new Function<URL, File>() {
-            @Override
-            File apply(URL url) {
-                return new File(url.toURI())
-            }
-        }).toList()
+        return classpathUrls.findAll {classpathFilter.test(it)}.collect {return new File(it.toURI()) }
     }
 
     private static List<URL> getClasspathUrls(ClassLoader classLoader) {
