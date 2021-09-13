@@ -16,10 +16,10 @@
 
 
 plugins {
-    id 'nebula.plugin-plugin' version '15.4.1'
+    id 'nebula.plugin-plugin' version '16.0.1'
     id "org.jetbrains.kotlin.jvm" version "1.4.21"
     id 'groovy'
-    id "nebula.integtest" version "6.0.3"
+    id "nebula.integtest" version "8.2.0"
 }
 
 description 'Test harness for Gradle plugins. Hopefully retiring in favor of Gradle TestKit'
@@ -47,4 +47,8 @@ tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+}
+
+tasks.withType(Test).configureEach {
+    it.useJUnitPlatform()
 }

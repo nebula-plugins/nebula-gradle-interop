@@ -47,7 +47,7 @@ class ConfigurationsSpec extends IntegrationTestKitSpec {
         }
 
         when:
-        def result = runTasks('dependencies', '--configuration', 'compileClasspath')
+        def result = runTasks('dependencies', '--configuration', 'compileClasspath', '--warning-mode', 'none')
 
         then:
         result.output.contains("Resolved configuration 'compileClasspath' from MyPlugin")
@@ -77,7 +77,7 @@ class ConfigurationsSpec extends IntegrationTestKitSpec {
         }
 
         when:
-        def result = runTasks('help')
+        def result = runTasks('help', '--warning-mode', 'none')
 
         then:
         result.output.contains("> Task :help")
