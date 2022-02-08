@@ -78,17 +78,15 @@ class VersionsIntegrationSpec extends IntegrationSpec {
 
         where:
         gradleVersionToUse << [
-                '5.0',
-                '5.1',
-                '5.2',
-                '5.3',
                 '5.4',
                 '5.5',
                 '5.6',
                 '6.1',
                 '6.9',
                 '7.0',
-                '7.1'
+                '7.1',
+                '7.2',
+                '7.3'
         ]
     }
 
