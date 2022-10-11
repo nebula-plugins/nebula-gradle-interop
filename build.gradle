@@ -16,10 +16,10 @@
 
 
 plugins {
-    id 'nebula.plugin-plugin' version '16.3.0'
+    id 'com.netflix.nebula.plugin-plugin' version '19.0.1'
     id "org.jetbrains.kotlin.jvm" version "1.6.21"
     id 'groovy'
-    id "nebula.integtest" version "9.1.6"
+    id "com.netflix.nebula.integtest" version "10.0.1"
 }
 
 description 'Test harness for Gradle plugins. Hopefully retiring in favor of Gradle TestKit'
