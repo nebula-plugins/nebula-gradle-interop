@@ -145,7 +145,7 @@ class ConfigurationsSpec extends IntegrationTestKitSpec {
         buildSrcBuildFile << """
             plugins {
                 id 'java-library'
-                id "org.jetbrains.kotlin.jvm" version "1.6.21"
+                id "org.jetbrains.kotlin.jvm" version "1.8.0"
             }
             repositories {
                 mavenCentral()
