@@ -145,23 +145,13 @@ class ConfigurationsSpec extends IntegrationTestKitSpec {
         buildSrcBuildFile << """
             plugins {
                 id 'java-library'
-                id "org.jetbrains.kotlin.jvm" version "1.8.0"
+                id "org.jetbrains.kotlin.jvm" version "2.0.20"
             }
             repositories {
                 mavenCentral()
             }
             dependencies {
                 api 'com.netflix.nebula:nebula-gradle-interop:latest.release'
-            }
-            java {
-                sourceCompatibility = JavaVersion.VERSION_1_8
-                targetCompatibility = JavaVersion.VERSION_1_8
-            }
-            
-            tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
-                kotlinOptions {
-                    jvmTarget = '1.8'
-                }
             }
             """.stripIndent()
         def pluginDir = new File(buildSrcDir, 'src/main/kotlin/myplugin')
