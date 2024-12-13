@@ -29,10 +29,13 @@ class VersionsIntegrationSpec extends IntegrationSpec {
         import com.netflix.nebula.interop.VersionWithSelector
         import org.gradle.api.internal.artifacts.ivyservice.ivyresolve.strategy.VersionParser
 
-        task printVersion {
-            doLast {
-                println "Gradle version: " + project.gradle.gradleVersion
+        afterEvaluate {
+            def gradleVersion = project.gradle.gradleVersion
+            task printVersion {
+                doLast {
+                    println "Gradle version: " + gradleVersion
                 println "Version from Selector: " + new VersionWithSelector("1.0.0", new VersionParser().transform("1.0.0")).asSelector().selector
+                }
             }
         }
         """
@@ -61,12 +64,16 @@ class VersionsIntegrationSpec extends IntegrationSpec {
         import com.netflix.nebula.interop.VersionWithSelector
         import org.gradle.api.internal.artifacts.ivyservice.ivyresolve.strategy.VersionParser
 
-        task printVersion {
-            doLast {
-                println "Gradle version: " + project.gradle.gradleVersion
-                println "Version from Selector: " + new VersionWithSelector("1.0.0", new VersionParser().transform("1.0.0")).asSelector().selector
+        afterEvaluate {
+            def gradleVersion = project.gradle.gradleVersion
+            task printVersion {
+                doLast {
+                    println "Gradle version: " + gradleVersion
+                    println "Version from Selector: " + new VersionWithSelector("1.0.0", new VersionParser().transform("1.0.0")).asSelector().selector
+                }
             }
         }
+        
         """
 
         when:
@@ -99,12 +106,16 @@ class VersionsIntegrationSpec extends IntegrationSpec {
         import com.netflix.nebula.interop.VersionWithSelector
         import org.gradle.api.internal.artifacts.ivyservice.ivyresolve.strategy.VersionParser
 
-        task printVersion {
-            doLast {
-                println "Gradle version: " + project.gradle.gradleVersion
-                println "Version from Selector: " + new VersionWithSelector("1.0.0", new VersionParser().transform("1.0.0")).asSelector().selector
+        afterEvaluate {
+            def gradleVersion = project.gradle.gradleVersion
+            task printVersion {
+                doLast {
+                    println "Gradle version: " + gradleVersion
+                    println "Version from Selector: " + new VersionWithSelector("1.0.0", new VersionParser().transform("1.0.0")).asSelector().selector
+                }
             }
         }
+      
         """
 
         when:
