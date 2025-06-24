@@ -1,9 +1,9 @@
 package com.netflix.nebula.interop
 
+import groovy.json.StringEscapeUtils
 import nebula.test.functional.GradleRunner
 import org.gradle.internal.classloader.ClasspathUtil
 import org.gradle.internal.classpath.ClassPath
-import org.gradle.util.TextUtil
 
 import java.util.function.Predicate
 
@@ -12,7 +12,7 @@ class DependenciesBuilderWithClassesUnderTest {
         ClassLoader classLoader = DependenciesBuilderWithClassesUnderTest.class.getClassLoader()
         def classpathFilter = GradleRunner.CLASSPATH_DEFAULT
         getClasspathAsFiles(classLoader, classpathFilter).collect {
-            String.format("      classpath files('%s')\n", TextUtil.escapeString(it.getAbsolutePath()))
+            String.format("      classpath files('%s')\n", escapeString(it.getAbsolutePath()))
         }.join('\n')
     }
 
@@ -31,4 +31,9 @@ class DependenciesBuilderWithClassesUnderTest {
         }
         throw new IllegalStateException("Unable to extract classpath urls from type ${cp.class.canonicalName}")
     }
+
+    private static String escapeString(Object obj) {
+        return obj == null ? null : StringEscapeUtils.escapeJava(obj.toString());
+    }
+
 }
