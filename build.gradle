@@ -14,12 +14,9 @@
  * limitations under the License.
  */
 
-
 plugins {
     id 'com.netflix.nebula.plugin-plugin' version '22.0.2'
     id "org.jetbrains.kotlin.jvm" version "2.2.0"
-    id 'groovy'
-    id "com.netflix.nebula.integtest" version "11.+"
 }
 
 description 'Test harness for Gradle plugins. Hopefully retiring in favor of Gradle TestKit'
@@ -37,14 +34,27 @@ dependencies {
     testImplementation 'org.jetbrains.kotlin:kotlin-reflect'
     testImplementation 'org.mockito:mockito-core:latest.release'
     testImplementation 'com.nhaarman:mockito-kotlin:latest.release'
-    testImplementation 'com.natpryce:hamkrest:latest.release'
-    testImplementation 'org.junit.vintage:junit-vintage-engine:5.+'
+}
+
+testing {
+    suites {
+        test {
+            useJUnitJupiter()
+        }
+    }
 }
 
 tasks.withType(Test).configureEach {
-    it.useJUnitPlatform()
+    useJUnitPlatform()
+    dependsOn("jar")
 }
 
 javaCrossCompile {
-    disableKotlinSupport = true
+    enabled(false)
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(8))
+    }
 }
