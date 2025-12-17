@@ -90,6 +90,10 @@ internal class ConfigurationsTest : AbstractIntegrationTestKitBase() {
             dependencies {
                 api 'com.netflix.nebula:nebula-gradle-interop:latest.release'
             }
+            java {
+                sourceCompatibility = JavaVersion.VERSION_1_8
+                targetCompatibility = JavaVersion.VERSION_1_8
+            }
             """.trimIndent())
         val pluginDir = buildSrcDir.resolve("src/main/groovy/myplugin")
         pluginDir.mkdirs()
@@ -137,6 +141,15 @@ internal class ConfigurationsTest : AbstractIntegrationTestKitBase() {
             }
             dependencies {
                 api 'com.netflix.nebula:nebula-gradle-interop:latest.release'
+            }
+            java {
+                sourceCompatibility = JavaVersion.VERSION_1_8
+                targetCompatibility = JavaVersion.VERSION_1_8
+            }
+            tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+                kotlinOptions {
+                    jvmTarget = "1.8"
+                }
             }
             """.trimIndent())
         val pluginDir = buildSrcDir.resolve("src/main/kotlin/myplugin")

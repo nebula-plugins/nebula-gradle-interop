@@ -16,7 +16,7 @@ class VersionsIntegration {
     lateinit var projectDir: File
 
     @ParameterizedTest
-    @ValueSource(strings = ["8.14.3", "9.1.0"])
+    @ValueSource(strings = ["9.2.0", "9.3.0-rc-1"])
     fun test(gradleVersionToUse: String) {
         val jar = File("./build/libs").listFiles()
             .filter { !it.name.contains("javadoc") }
